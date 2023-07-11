@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'page404';
+
+  changeTitle() {
+    this.title = 'changed';
+  }
 }
